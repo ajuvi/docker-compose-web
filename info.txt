@@ -1,0 +1,17 @@
+# crea / executa els contenidors
+docker compose up -d
+
+# atura els contenidors
+docker compose stop
+
+# inicia els contenidors
+docker compose start
+
+# reinicia els contenidors
+docker compose restart
+
+# elimina els contenidors
+docker compose down
+
+# accedir a un contenidor
+docker exec -it nom_contenidor bash
