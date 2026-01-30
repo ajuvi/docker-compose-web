@@ -1,6 +1,9 @@
 # crea / executa els contenidors
 docker compose up -d
 
+# llista tots els contenidors del 
+docker compose ps -a
+
 # atura els contenidors
 docker compose stop
 
